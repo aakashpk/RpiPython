@@ -3,7 +3,9 @@ import time
 
 print(gpio.RPI_INFO)
 
-led=7
+pin_num=raw_input("Enter pin number where led connected ")
+
+led=int(pin_num)
 
 gpio.setmode(gpio.BOARD)
 gpio.setup(led,gpio.OUT,initial=gpio.HIGH)
