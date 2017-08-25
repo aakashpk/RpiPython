@@ -8,7 +8,7 @@ gpio.setup(7,gpio.OUT,initial=gpio.HIGH)
 
 a=raw_input("Enter no of times")
 
-for i in range (0,a):
+for i in range (0,int(a)):
 	gpio.output(7,1)
 	time.sleep(1)
 	print("High now")
