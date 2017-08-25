@@ -1,7 +1,7 @@
 import RPi.GPIO as gpio
 import time
 
-print(gpio.RPI_INFO)
+#print(gpio.RPI_INFO)
 
 pin_num=raw_input("Enter pin number where led connected ")
 
