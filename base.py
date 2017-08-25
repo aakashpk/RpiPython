@@ -6,7 +6,7 @@ print(gpio.RPI_INFO)
 gpio.setmode(gpio.BOARD)
 gpio.setup(7,gpio.OUT,initial=gpio.HIGH)
 
-input(a)
+a=raw_input("Enter no of times")
 
 while(1):
 	time.sleep(1)
