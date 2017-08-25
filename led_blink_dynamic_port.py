@@ -15,10 +15,11 @@ freq=raw_input("Enter on/off time ")
 
 for i in range (0,int(num)):
 	gpio.output(led,1)
+	print("High")
 	time.sleep(float(freq))
-	print("High now")
 	gpio.output(led,0)
+	print("Low")
 	time.sleep(float(freq))
-	print("low")
+	
 
 gpio.cleanup()
