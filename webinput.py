@@ -9,4 +9,5 @@ gpio.setup(7,gpio.OUT,initial=gpio.HIGH)
 gpio.output(7,1)
 gpio.output(7,0)
 //checking branching
+// added another comment
 gpio.cleanup()
